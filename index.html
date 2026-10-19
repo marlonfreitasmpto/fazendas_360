@@ -18,7 +18,7 @@
 <script>
     // Lê o parâmetro 'foto' enviado pela URL (ex: ?foto=fazenda_nova_01.jpg)
     const urlParams = new URLSearchParams(window.location.search);
-    const foto = urlParams.get('foto') || 'fazenda_nova_01 (1).jpg';
+    const foto = urlParams.get('foto') || 'fazenda_nova_01.jpg';
 
     pannellum.viewer('panorama', {
         "type": "equirectangular",
